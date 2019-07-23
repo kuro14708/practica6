@@ -1,0 +1,16 @@
+//Cree en Javascript un programa que muestre el promedio de n números, dejándose de solicitar números
+cuando se introduzca el cero.
+<script>
+var contador = 0
+var n = parseInt(prompt("ingrese el numero"))
+var suma = 0
+
+
+while ( n >= 0) {
+    var n = parseInt(prompt("ingrese el numero"))
+    contador++
+    suma=suma + n
+}
+promedio = suma/contador
+console.log(promedio)
+</script>
